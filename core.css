@@ -1,0 +1,32 @@
+
+html {
+    font-family: sans-serif;
+    color: black;
+}
+body {
+    margin: 0;
+    background: #1b1b1b;
+}
+header {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 2em 0;
+}
+header h1 {
+    font-size: 5vmax;
+    animation-name: floating;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    margin: 0;
+}
+@keyframes floating {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(10%);
+    }
+}
