@@ -6,4 +6,4 @@ Die PWA nutzt eine REST API um Daten zu empfangen, natürlich kann hier mit ein 
 ## Voraussetzungen
 Ein [moderner Browser](https://caniuse.com/#search=ServiceWorker) mit Zugriff auf ServiceWorker, wie z.B. die Browser ab Edge 17, FireFox 44, Chrome 45 oder Safari 11.1 (11.4 für iOS).
 
-⚠️ Die Cache API funktioniert nicht mit iOS Safari zum derzeitigen Zeitpunkt.
+[⚠️ Die Cache API funktioniert nicht mit iOS Safari zum derzeitigen Zeitpunkt.](https://developer.mozilla.org/en-US/docs/Web/API/Cache)
